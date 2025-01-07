@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:sugar_cane"
+	},
+
+	"result" : {
+		"id" : "item-bundling:bundle_sugar_cane",
+		"count" : 1
+	}
+}

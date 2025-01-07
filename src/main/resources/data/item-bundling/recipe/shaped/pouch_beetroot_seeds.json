@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:beetroot_seeds"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pouch_beetroot_seeds",
+		"count" : 1
+	}
+}

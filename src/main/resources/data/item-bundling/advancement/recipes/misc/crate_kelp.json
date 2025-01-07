@@ -1,0 +1,39 @@
+{
+	"parent" : "minecraft:recipes/root",
+
+	"criteria" : {
+		"has_item" : {
+			"conditions" : {
+				"items" : [
+					{
+						"items" : "minecraft:kelp"
+					}
+				]
+			},
+
+			"trigger" : "minecraft:inventory_changed"
+		},
+
+		"has_recipe" : {
+			"conditions" : {
+				"recipe" : "item-bundling:shaped/crate_kelp"
+			},
+
+			"trigger" : "minecraft:recipe_unlocked"
+		}
+	},
+
+	"requirements" : [
+		[
+			"has_item",
+			"has_recipe"
+		]
+	],
+
+	"rewards" : {
+		"recipes" : [
+			"item-bundling:shaped/crate_kelp",
+			"item-bundling:shapeless/kelp"
+		]
+	}
+}

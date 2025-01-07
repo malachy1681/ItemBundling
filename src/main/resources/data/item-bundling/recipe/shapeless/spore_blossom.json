@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_spore_blossoms"
+	],
+
+	"result" : {
+		"id" : "minecraft:spore_blossom",
+		"count" : 9
+	}
+}

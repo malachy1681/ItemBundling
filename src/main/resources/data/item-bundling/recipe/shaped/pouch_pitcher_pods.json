@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:pitcher_pod"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pouch_pitcher_pods",
+		"count" : 1
+	}
+}

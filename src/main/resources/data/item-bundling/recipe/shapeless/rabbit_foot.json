@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_rabbit_feet"
+	],
+
+	"result" : {
+		"id" : "minecraft:rabbit_foot",
+		"count" : 9
+	}
+}

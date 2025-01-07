@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_blue_orchids"
+	],
+
+	"result" : {
+		"id" : "minecraft:blue_orchid",
+		"count" : 9
+	}
+}

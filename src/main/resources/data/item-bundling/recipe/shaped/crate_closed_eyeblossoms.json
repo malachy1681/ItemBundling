@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:closed_eyeblossom"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_closed_eyeblossoms",
+		"count" : 1
+	}
+}

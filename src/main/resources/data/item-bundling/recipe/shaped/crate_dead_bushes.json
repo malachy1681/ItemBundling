@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:dead_bush"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_dead_bushes",
+		"count" : 1
+	}
+}

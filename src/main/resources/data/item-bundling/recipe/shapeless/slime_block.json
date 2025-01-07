@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_slime_blocks"
+	],
+
+	"result" : {
+		"id" : "minecraft:slime_block",
+		"count" : 9
+	}
+}

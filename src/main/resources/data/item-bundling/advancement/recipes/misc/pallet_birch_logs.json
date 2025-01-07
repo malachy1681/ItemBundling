@@ -1,0 +1,39 @@
+{
+	"parent" : "minecraft:recipes/root",
+
+	"criteria" : {
+		"has_item" : {
+			"conditions" : {
+				"items" : [
+					{
+						"items" : "minecraft:birch_log"
+					}
+				]
+			},
+
+			"trigger" : "minecraft:inventory_changed"
+		},
+
+		"has_recipe" : {
+			"conditions" : {
+				"recipe" : "item-bundling:shaped/pallet_birch_logs"
+			},
+
+			"trigger" : "minecraft:recipe_unlocked"
+		}
+	},
+
+	"requirements" : [
+		[
+			"has_item",
+			"has_recipe"
+		]
+	],
+
+	"rewards" : {
+		"recipes" : [
+			"item-bundling:shaped/pallet_birch_logs",
+			"item-bundling:shapeless/birch_log"
+		]
+	}
+}

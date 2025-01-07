@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_azure_bluets"
+	],
+
+	"result" : {
+		"id" : "minecraft:azure_bluet",
+		"count" : 9
+	}
+}

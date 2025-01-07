@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_allium"
+	],
+
+	"result" : {
+		"id" : "minecraft:allium",
+		"count" : 9
+	}
+}

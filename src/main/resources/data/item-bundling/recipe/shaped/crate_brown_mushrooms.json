@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:brown_mushroom"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_brown_mushrooms",
+		"count" : 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:gunpowder"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_gunpowder",
+		"count" : 1
+	}
+}

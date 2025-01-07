@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_lilies_of_the_valley"
+	],
+
+	"result" : {
+		"id" : "minecraft:lily_of_the_valley",
+		"count" : 9
+	}
+}

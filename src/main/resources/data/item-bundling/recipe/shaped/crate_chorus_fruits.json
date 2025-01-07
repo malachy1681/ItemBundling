@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:chorus_fruit"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_chorus_fruits",
+		"count" : 1
+	}
+}

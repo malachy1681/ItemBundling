@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_glow_lichen"
+	],
+
+	"result" : {
+		"id" : "minecraft:glow_lichen",
+		"count" : 9
+	}
+}

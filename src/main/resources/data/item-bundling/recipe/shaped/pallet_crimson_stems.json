@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:crimson_stem"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_crimson_stems",
+		"count" : 1
+	}
+}

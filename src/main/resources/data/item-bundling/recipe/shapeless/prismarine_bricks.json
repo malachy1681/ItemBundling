@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_prismarine_bricks"
+	],
+
+	"result" : {
+		"id" : "minecraft:prismarine_bricks",
+		"count" : 9
+	}
+}

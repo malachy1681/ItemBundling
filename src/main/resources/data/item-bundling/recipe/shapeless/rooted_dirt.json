@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_rooted_dirt"
+	],
+
+	"result" : {
+		"id" : "minecraft:rooted_dirt",
+		"count" : 9
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:redstone_block"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_redstone_blocks",
+		"count" : 1
+	}
+}

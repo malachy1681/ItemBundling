@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_flowering_azalea_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:flowering_azalea_leaves",
+		"count" : 9
+	}
+}

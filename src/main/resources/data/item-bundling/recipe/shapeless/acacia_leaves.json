@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_acacia_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:acacia_leaves",
+		"count" : 9
+	}
+}

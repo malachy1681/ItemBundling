@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_cobwebs"
+	],
+
+	"result" : {
+		"id" : "minecraft:cobweb",
+		"count" : 9
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent" : "minecraft:recipes/root",
+
+	"criteria" : {
+		"has_item" : {
+			"conditions" : {
+				"items" : [
+					{
+						"items" : "minecraft:blackstone"
+					}
+				]
+			},
+
+			"trigger" : "minecraft:inventory_changed"
+		},
+
+		"has_recipe" : {
+			"conditions" : {
+				"recipe" : "item-bundling:shaped/pallet_blackstone"
+			},
+
+			"trigger" : "minecraft:recipe_unlocked"
+		}
+	},
+
+	"requirements" : [
+		[
+			"has_item",
+			"has_recipe"
+		]
+	],
+
+	"rewards" : {
+		"recipes" : [
+			"item-bundling:shaped/pallet_blackstone",
+			"item-bundling:shapeless/blackstone"
+		]
+	}
+}

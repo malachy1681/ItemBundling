@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:ender_pearl"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_ender_pearls",
+		"count" : 1
+	}
+}

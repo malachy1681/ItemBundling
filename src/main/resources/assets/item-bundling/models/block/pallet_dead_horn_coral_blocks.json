@@ -1,0 +1,10 @@
+{
+	"parent" : "item-bundling:block/pallet",
+
+	"textures" : {
+		"base" : "minecraft:block/oak_planks",
+		"strap" : "item-bundling:block/pallet_strap",
+		"block_side" : "minecraft:block/dead_horn_coral_block",
+		"block_top" : "minecraft:block/dead_horn_coral_block"
+	}
+}

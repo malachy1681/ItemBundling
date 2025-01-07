@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:big_dripleaf"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_big_dripleaves",
+		"count" : 1
+	}
+}

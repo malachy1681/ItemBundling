@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:breeze_rod"
+	},
+
+	"result" : {
+		"id" : "item-bundling:bundle_breeze_rods",
+		"count" : 1
+	}
+}

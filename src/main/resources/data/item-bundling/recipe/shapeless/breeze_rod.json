@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:bundle_breeze_rods"
+	],
+
+	"result" : {
+		"id" : "minecraft:breeze_rod",
+		"count" : 9
+	}
+}

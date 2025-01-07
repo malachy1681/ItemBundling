@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_verdant_froglights"
+	],
+
+	"result" : {
+		"id" : "minecraft:verdant_froglight",
+		"count" : 9
+	}
+}

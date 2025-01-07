@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_cherry_saplings"
+	],
+
+	"result" : {
+		"id" : "minecraft:cherry_sapling",
+		"count" : 9
+	}
+}

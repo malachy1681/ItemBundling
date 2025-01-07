@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_dark_oak_logs"
+	],
+
+	"result" : {
+		"id" : "minecraft:dark_oak_log",
+		"count" : 9
+	}
+}

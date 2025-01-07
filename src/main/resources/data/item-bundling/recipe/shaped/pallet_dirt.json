@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:dirt"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_dirt",
+		"count" : 1
+	}
+}

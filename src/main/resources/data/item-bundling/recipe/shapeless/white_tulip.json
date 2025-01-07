@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_white_tulips"
+	],
+
+	"result" : {
+		"id" : "minecraft:white_tulip",
+		"count" : 9
+	}
+}

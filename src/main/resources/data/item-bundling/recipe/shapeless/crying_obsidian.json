@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_crying_obsidian"
+	],
+
+	"result" : {
+		"id" : "minecraft:crying_obsidian",
+		"count" : 9
+	}
+}

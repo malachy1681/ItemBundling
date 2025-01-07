@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pouch_torchflower_seeds"
+	],
+
+	"result" : {
+		"id" : "minecraft:torchflower_seeds",
+		"count" : 9
+	}
+}

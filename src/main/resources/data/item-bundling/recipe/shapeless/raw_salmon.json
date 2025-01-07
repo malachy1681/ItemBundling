@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_raw_salmon"
+	],
+
+	"result" : {
+		"id" : "minecraft:salmon",
+		"count" : 9
+	}
+}

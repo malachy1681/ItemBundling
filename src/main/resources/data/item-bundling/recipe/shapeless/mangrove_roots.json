@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_mangrove_roots"
+	],
+
+	"result" : {
+		"id" : "minecraft:mangrove_roots",
+		"count" : 9
+	}
+}

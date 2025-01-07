@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_raw_porkchops"
+	],
+
+	"result" : {
+		"id" : "minecraft:porkchop",
+		"count" : 9
+	}
+}

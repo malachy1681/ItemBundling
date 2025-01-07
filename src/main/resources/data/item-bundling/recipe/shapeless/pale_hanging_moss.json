@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_pale_hanging_moss"
+	],
+
+	"result" : {
+		"id" : "minecraft:pale_hanging_moss",
+		"count" : 9
+	}
+}

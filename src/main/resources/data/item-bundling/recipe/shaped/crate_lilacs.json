@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:lilac"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_lilacs",
+		"count" : 1
+	}
+}

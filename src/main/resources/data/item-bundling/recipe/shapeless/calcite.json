@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_calcite"
+	],
+
+	"result" : {
+		"id" : "minecraft:calcite",
+		"count" : 9
+	}
+}

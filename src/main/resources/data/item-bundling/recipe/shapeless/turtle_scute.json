@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_turtle_scutes"
+	],
+
+	"result" : {
+		"id" : "minecraft:turtle_scute",
+		"count" : 9
+	}
+}

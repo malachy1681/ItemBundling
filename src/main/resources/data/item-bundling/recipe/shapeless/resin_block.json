@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_resin_blocks"
+	],
+
+	"result" : {
+		"id" : "minecraft:resin_block",
+		"count" : 9
+	}
+}

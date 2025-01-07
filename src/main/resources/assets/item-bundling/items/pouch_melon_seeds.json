@@ -1,0 +1,6 @@
+{
+	"model" : {
+		"type" : "minecraft:model",
+		"model" : "item-bundling:item/pouch_melon_seeds"
+	}
+}

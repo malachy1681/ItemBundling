@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:birch_sapling"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_birch_saplings",
+		"count" : 1
+	}
+}

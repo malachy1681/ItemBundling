@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_mangrove_propagules"
+	],
+
+	"result" : {
+		"id" : "minecraft:mangrove_propagule",
+		"count" : 9
+	}
+}

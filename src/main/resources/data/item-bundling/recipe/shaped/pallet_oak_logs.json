@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:oak_log"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_oak_logs",
+		"count" : 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:cocoa_beans"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pouch_cocoa_beans",
+		"count" : 1
+	}
+}

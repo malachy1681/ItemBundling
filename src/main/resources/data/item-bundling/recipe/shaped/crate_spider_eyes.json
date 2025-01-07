@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:spider_eye"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_spider_eyes",
+		"count" : 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:glow_ink_sac"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_glow_ink_sacs",
+		"count" : 1
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_tropical_fish"
+	],
+
+	"result" : {
+		"id" : "minecraft:tropical_fish",
+		"count" : 9
+	}
+}

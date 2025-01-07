@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:mangrove_propagule"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_mangrove_propagules",
+		"count" : 1
+	}
+}

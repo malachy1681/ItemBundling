@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_dead_bushes"
+	],
+
+	"result" : {
+		"id" : "minecraft:dead_bush",
+		"count" : 9
+	}
+}

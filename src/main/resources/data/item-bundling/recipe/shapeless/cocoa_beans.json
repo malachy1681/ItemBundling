@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pouch_cocoa_beans"
+	],
+
+	"result" : {
+		"id" : "minecraft:cocoa_beans",
+		"count" : 9
+	}
+}

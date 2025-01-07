@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_oak_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:oak_leaves",
+		"count" : 9
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_peonies"
+	],
+
+	"result" : {
+		"id" : "minecraft:peony",
+		"count" : 9
+	}
+}

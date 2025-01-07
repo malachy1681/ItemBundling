@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:birch_leaves"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_birch_leaves",
+		"count" : 1
+	}
+}

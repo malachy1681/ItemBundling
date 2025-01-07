@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_dead_bubble_coral_blocks"
+	],
+
+	"result" : {
+		"id" : "minecraft:dead_bubble_coral_block",
+		"count" : 9
+	}
+}

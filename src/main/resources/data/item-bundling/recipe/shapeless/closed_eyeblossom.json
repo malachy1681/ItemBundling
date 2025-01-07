@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_closed_eyeblossoms"
+	],
+
+	"result" : {
+		"id" : "minecraft:closed_eyeblossom",
+		"count" : 9
+	}
+}

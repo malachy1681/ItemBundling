@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_oxeye_daisies"
+	],
+
+	"result" : {
+		"id" : "minecraft:oxeye_daisy",
+		"count" : 9
+	}
+}

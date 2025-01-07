@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:obsidian"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_obsidian",
+		"count" : 1
+	}
+}

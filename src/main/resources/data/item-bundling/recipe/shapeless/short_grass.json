@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_short_grass"
+	],
+
+	"result" : {
+		"id" : "minecraft:short_grass",
+		"count" : 9
+	}
+}

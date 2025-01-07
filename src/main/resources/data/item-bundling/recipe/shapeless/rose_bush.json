@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_rose_bushes"
+	],
+
+	"result" : {
+		"id" : "minecraft:rose_bush",
+		"count" : 9
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_lilacs"
+	],
+
+	"result" : {
+		"id" : "minecraft:lilac",
+		"count" : 9
+	}
+}

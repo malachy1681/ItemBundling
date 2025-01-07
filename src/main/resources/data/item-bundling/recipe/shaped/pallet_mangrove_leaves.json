@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:mangrove_leaves"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_mangrove_leaves",
+		"count" : 1
+	}
+}

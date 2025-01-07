@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_sea_pickles"
+	],
+
+	"result" : {
+		"id" : "minecraft:sea_pickle",
+		"count" : 9
+	}
+}

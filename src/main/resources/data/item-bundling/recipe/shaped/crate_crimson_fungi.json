@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:crimson_fungus"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_crimson_fungi",
+		"count" : 1
+	}
+}

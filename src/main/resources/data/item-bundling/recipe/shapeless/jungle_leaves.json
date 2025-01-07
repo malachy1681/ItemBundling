@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_jungle_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:jungle_leaves",
+		"count" : 9
+	}
+}

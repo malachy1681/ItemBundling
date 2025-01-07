@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_crimson_stems"
+	],
+
+	"result" : {
+		"id" : "minecraft:crimson_stem",
+		"count" : 9
+	}
+}

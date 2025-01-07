@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_phantom_membranes"
+	],
+
+	"result" : {
+		"id" : "minecraft:phantom_membrane",
+		"count" : 9
+	}
+}

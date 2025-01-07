@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_hanging_roots"
+	],
+
+	"result" : {
+		"id" : "minecraft:hanging_roots",
+		"count" : 9
+	}
+}

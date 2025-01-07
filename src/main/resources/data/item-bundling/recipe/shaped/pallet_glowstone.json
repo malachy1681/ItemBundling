@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:glowstone"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_glowstone",
+		"count" : 1
+	}
+}

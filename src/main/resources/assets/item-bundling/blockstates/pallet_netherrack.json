@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"" : {
+			"model" : "item-bundling:block/pallet_netherrack"
+		}
+	}
+}

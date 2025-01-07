@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_vines"
+	],
+
+	"result" : {
+		"id" : "minecraft:vine",
+		"count" : 9
+	}
+}

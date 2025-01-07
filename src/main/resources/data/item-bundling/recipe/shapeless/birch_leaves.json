@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_birch_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:birch_leaves",
+		"count" : 9
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:twisting_vines"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_twisting_vines",
+		"count" : 1
+	}
+}

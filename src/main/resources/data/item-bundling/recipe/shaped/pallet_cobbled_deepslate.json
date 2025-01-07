@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:cobbled_deepslate"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_cobbled_deepslate",
+		"count" : 1
+	}
+}

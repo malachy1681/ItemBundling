@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_spruce_saplings"
+	],
+
+	"result" : {
+		"id" : "minecraft:spruce_sapling",
+		"count" : 9
+	}
+}

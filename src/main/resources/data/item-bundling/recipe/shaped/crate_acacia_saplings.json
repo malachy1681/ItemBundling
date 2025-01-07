@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:acacia_sapling"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_acacia_saplings",
+		"count" : 1
+	}
+}

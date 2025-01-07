@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:verdant_froglight"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_verdant_froglights",
+		"count" : 1
+	}
+}

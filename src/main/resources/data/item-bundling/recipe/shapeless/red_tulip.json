@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_red_tulips"
+	],
+
+	"result" : {
+		"id" : "minecraft:red_tulip",
+		"count" : 9
+	}
+}

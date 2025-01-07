@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:cherry_log"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_cherry_logs",
+		"count" : 1
+	}
+}

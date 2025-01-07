@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:armadillo_scute"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_armadillo_scutes",
+		"count" : 1
+	}
+}

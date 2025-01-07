@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:mutton"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_raw_mutton",
+		"count" : 1
+	}
+}

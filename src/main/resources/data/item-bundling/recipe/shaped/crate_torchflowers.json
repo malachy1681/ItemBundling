@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:torchflower"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_torchflowers",
+		"count" : 1
+	}
+}

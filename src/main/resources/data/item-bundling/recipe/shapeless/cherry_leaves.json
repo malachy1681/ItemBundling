@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_cherry_leaves"
+	],
+
+	"result" : {
+		"id" : "minecraft:cherry_leaves",
+		"count" : 9
+	}
+}

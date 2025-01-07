@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:ghast_tear"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_ghast_tears",
+		"count" : 1
+	}
+}

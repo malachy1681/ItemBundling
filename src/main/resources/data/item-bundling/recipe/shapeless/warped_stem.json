@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_warped_stems"
+	],
+
+	"result" : {
+		"id" : "minecraft:warped_stem",
+		"count" : 9
+	}
+}

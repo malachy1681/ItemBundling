@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:pink_tulip"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_pink_tulips",
+		"count" : 1
+	}
+}

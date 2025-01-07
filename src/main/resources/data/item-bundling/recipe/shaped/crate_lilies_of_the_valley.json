@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:lily_of_the_valley"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_lilies_of_the_valley",
+		"count" : 1
+	}
+}

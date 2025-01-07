@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:pale_hanging_moss"
+	},
+
+	"result" : {
+		"id" : "item-bundling:crate_pale_hanging_moss",
+		"count" : 1
+	}
+}

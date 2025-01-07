@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:crate_eggs"
+	],
+
+	"result" : {
+		"id" : "minecraft:egg",
+		"count" : 9
+	}
+}

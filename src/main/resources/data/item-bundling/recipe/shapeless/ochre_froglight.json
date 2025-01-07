@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_ochre_froglights"
+	],
+
+	"result" : {
+		"id" : "minecraft:ochre_froglight",
+		"count" : 9
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:bundle_sugar_cane"
+	],
+
+	"result" : {
+		"id" : "minecraft:sugar_cane",
+		"count" : 9
+	}
+}

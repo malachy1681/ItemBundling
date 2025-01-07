@@ -1,0 +1,6 @@
+{
+	"model" : {
+		"type" : "minecraft:model",
+		"model" : "item-bundling:block/pallet_dead_horn_coral_blocks"
+	}
+}

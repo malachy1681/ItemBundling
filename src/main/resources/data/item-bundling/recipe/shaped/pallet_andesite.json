@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:andesite"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_andesite",
+		"count" : 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:end_stone"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_end_stone",
+		"count" : 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:melon_seeds"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pouch_melon_seeds",
+		"count" : 1
+	}
+}

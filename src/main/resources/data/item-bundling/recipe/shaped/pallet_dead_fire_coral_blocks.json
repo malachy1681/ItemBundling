@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:dead_fire_coral_block"
+	},
+
+	"result" : {
+		"id" : "item-bundling:pallet_dead_fire_coral_blocks",
+		"count" : 1
+	}
+}

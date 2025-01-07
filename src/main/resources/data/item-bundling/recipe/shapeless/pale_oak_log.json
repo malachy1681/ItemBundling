@@ -1,0 +1,13 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "misc",
+
+	"ingredients" : [
+		"item-bundling:pallet_pale_oak_logs"
+	],
+
+	"result" : {
+		"id" : "minecraft:pale_oak_log",
+		"count" : 9
+	}
+}
