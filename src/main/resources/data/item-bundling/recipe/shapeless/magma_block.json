@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "building",
+	"group" : "magma_block",
 
 	"ingredients" : [
 		"item-bundling:pallet_magma_blocks"

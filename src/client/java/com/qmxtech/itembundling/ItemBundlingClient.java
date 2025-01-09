@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ItemBundlingClient.java
-// Robert M. Baker | Created : 25DEC24 | Last Modified : 07JAN25 by Robert M. Baker
+// Robert M. Baker | Created : 25DEC24 | Last Modified : 09JAN25 by Robert M. Baker
 // Version : 1.0.0
 // This is a source file for 'Item Bundling'; it defines a client-side mod initializer class.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -17,9 +17,11 @@ package com.qmxtech.itembundling;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registries;
+import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import com.qmxtech.itembundling.block.ModBlocks;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -41,6 +43,27 @@ public class ItemBundlingClient implements ClientModInitializer
 
 				for ( String id : ModBlocks.TRANSLUCENT_BLOCK_IDS )
 					BlockRenderLayerMap.INSTANCE.putBlock( Registries.BLOCK.get( Identifier.of( ItemBundling.MOD_ID, id ) ), RenderLayer.getTranslucent() );
+
+				for ( String[] pair : ModBlocks.TINTED_BLOCKS )
+				{
+					if( Integer.parseInt( pair[ 1 ] ) < 0 )
+					{
+						ColorProviderRegistry.BLOCK.register(
+							( ( state, world, pos, tintIndex ) -> {
+								assert world != null;
+								return BiomeColors.getFoliageColor( world, pos );
+							} ),
+							Registries.BLOCK.get( Identifier.of( ItemBundling.MOD_ID, pair[ 0 ] ) )
+						);
+					}
+					else
+					{
+						ColorProviderRegistry.BLOCK.register(
+							( ( state, world, pos, tintIndex ) -> Integer.parseInt( pair[ 1 ] ) ),
+							Registries.BLOCK.get( Identifier.of( ItemBundling.MOD_ID, pair[ 0 ] ) )
+						);
+					}
+				}
 		}
 }
 

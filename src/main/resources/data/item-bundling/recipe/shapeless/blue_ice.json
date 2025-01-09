@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "building",
+	"group" : "blue_ice",
 
 	"ingredients" : [
 		"item-bundling:pallet_blue_ice"

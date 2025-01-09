@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "building",
+	"group" : "snow_block",
 
 	"ingredients" : [
 		"item-bundling:pallet_snow_blocks"

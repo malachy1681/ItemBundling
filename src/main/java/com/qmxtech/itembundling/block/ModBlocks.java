@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////${cursor}
 // ModItems.java
-// Robert M. Baker | Created : 03JAN25 | Last Modified : 07JAN25 by Robert M. Baker
+// Robert M. Baker | Created : 03JAN25 | Last Modified : 09JAN25 by Robert M. Baker
 // Version : 1.0.0
 // This is a source file for 'Item Bundling'; it defines the mod items registration class.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -55,6 +55,16 @@ public class ModBlocks
 			"pallet_slime_blocks"
 		};
 
+		public static final String[][] TINTED_BLOCKS = {
+			{ "pallet_acacia_leaves", "-1" },
+			{ "pallet_birch_leaves", "8431445" },
+			{ "pallet_jungle_leaves", "-1" },
+			{ "pallet_mangrove_leaves", "-1" },
+			{ "pallet_oak_leaves", "-1" },
+			{ "pallet_dark_oak_leaves", "-1" },
+			{ "pallet_spruce_leaves", "6396257" }
+		};
+
 	// Methods
 
 		public static void initialize()
@@ -73,7 +83,7 @@ public class ModBlocks
 
 	// Fields
 
-		private static final AbstractBlock.Settings SETTINGS_NON_LUMINANT = AbstractBlock.Settings.create()
+		private static final AbstractBlock.Settings SETTINGS_STANDARD = AbstractBlock.Settings.create()
 			.mapColor( MapColor.OAK_TAN )
 			.strength( 2.0F, 3.0F )
 			.sounds( BlockSoundGroup.WOOD )
@@ -87,95 +97,95 @@ public class ModBlocks
 			.luminance( ( state -> 15 ) );
 
 		private static final Block[] BLOCKS = {
-			register( "pallet_hay_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_pumpkins", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_melons", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_honey_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dried_kelp_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_ochre_froglights", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_verdant_froglights", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_pearlescent_froglights", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_bone_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_slime_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_prismarine_bricks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_coal_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_redstone_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_lapis_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_copper_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_iron_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_gold_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_diamond_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_emerald_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_quartz_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_netherite_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_clay", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_amethyst_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_glowstone", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_resin_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_honeycomb_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_nether_wart_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_snow_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_blue_ice", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_magma_blocks", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_dirt", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_rooted_dirt", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_soul_sand", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_soul_soil", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_gravel", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_sandstone", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_red_sandstone", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_cobblestone", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_andesite", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_diorite", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_granite", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dripstone_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_cobbled_deepslate", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_calcite", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_obsidian", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_crying_obsidian", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_netherrack", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_basalt", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_blackstone", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_end_stone", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_moss_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_pale_moss_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_mangrove_roots", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_acacia_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_birch_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_cherry_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_jungle_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_mangrove_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_oak_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dark_oak_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_pale_oak_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_spruce_logs", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_bamboo_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_warped_wart_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_shroomlights", Block::new, SETTINGS_LUMINANT, true ),
-			register( "pallet_crimson_stems", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_warped_stems", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_white_wool", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dead_fire_coral_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dead_horn_coral_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dead_tube_coral_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dead_bubble_coral_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dead_brain_coral_blocks", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_acacia_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_birch_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_cherry_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_jungle_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_mangrove_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_oak_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_dark_oak_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_pale_oak_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_spruce_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_azalea_leaves", Block::new, SETTINGS_NON_LUMINANT, true ),
-			register( "pallet_flowering_azalea_leaves", Block::new, SETTINGS_NON_LUMINANT, true )
+			register( "pallet_hay_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_pumpkins", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_melons", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_honey_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dried_kelp_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_ochre_froglights", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_verdant_froglights", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_pearlescent_froglights", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_bone_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_slime_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_prismarine_bricks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_coal_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_redstone_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_lapis_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_copper_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_iron_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_gold_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_diamond_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_emerald_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_quartz_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_netherite_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_clay", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_amethyst_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_glowstone", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_resin_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_honeycomb_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_nether_wart_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_snow_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_blue_ice", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_magma_blocks", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_dirt", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_rooted_dirt", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_soul_sand", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_soul_soil", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_gravel", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_sandstone", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_red_sandstone", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_cobblestone", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_andesite", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_diorite", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_granite", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dripstone_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_cobbled_deepslate", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_calcite", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_obsidian", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_crying_obsidian", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_netherrack", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_basalt", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_blackstone", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_end_stone", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_moss_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_pale_moss_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_mangrove_roots", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_acacia_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_birch_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_cherry_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_jungle_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_mangrove_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_oak_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dark_oak_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_pale_oak_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_spruce_logs", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_bamboo_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_warped_wart_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_shroomlights", PalletBlock::new, SETTINGS_LUMINANT ),
+			register( "pallet_crimson_stems", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_warped_stems", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_white_wool", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dead_fire_coral_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dead_horn_coral_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dead_tube_coral_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dead_bubble_coral_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dead_brain_coral_blocks", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_acacia_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_birch_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_cherry_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_jungle_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_mangrove_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_oak_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_dark_oak_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_pale_oak_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_spruce_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_azalea_leaves", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_flowering_azalea_leaves", PalletBlock::new, SETTINGS_STANDARD )
 		};
 
 	// Methods
 
-		private static Block register( String id, Function< AbstractBlock.Settings, Block > factory, AbstractBlock.Settings settings, Boolean doItemRegister )
+		private static Block register( String id, Function< AbstractBlock.Settings, Block > factory, AbstractBlock.Settings settings )
 		{
 			// Create local variables.
 
@@ -183,20 +193,16 @@ public class ModBlocks
 				Identifier targetID = Identifier.of( ItemBundling.MOD_ID, id );
 				RegistryKey< Item > key;
 
-			// Register block with specified settings and optionally register block item.
+			// Register block with specified settings and its item.
 
 				result = Blocks.register( RegistryKey.of( RegistryKeys.BLOCK, targetID ), factory, settings );
+				key = RegistryKey.of( RegistryKeys.ITEM, targetID );
 
-				if( doItemRegister )
-				{
-					key = RegistryKey.of( RegistryKeys.ITEM, targetID );
-
-					Registry.register(
-						Registries.ITEM,
-						key,
-						( new BlockItem( result, ( new Item.Settings().useBlockPrefixedTranslationKey().registryKey( key ) ) ) )
-					);
-				}
+				Registry.register(
+					Registries.ITEM,
+					key,
+					( new BlockItem( result, ( new Item.Settings().useBlockPrefixedTranslationKey().registryKey( key ) ) ) )
+				);
 
 			// Return result to calling routine.
 

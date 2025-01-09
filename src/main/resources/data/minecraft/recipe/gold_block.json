@@ -1,0 +1,20 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "building",
+	"group" : "gold_block",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:gold_ingot"
+	},
+
+	"result" : {
+		"id" : "minecraft:gold_block",
+		"count" : 1
+	}
+}

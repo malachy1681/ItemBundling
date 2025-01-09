@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "building",
+	"group" : "glowstone",
 
 	"ingredients" : [
 		"item-bundling:pallet_glowstone"

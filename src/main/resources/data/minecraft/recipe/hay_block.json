@@ -1,0 +1,22 @@
+{
+	"type" : "minecraft:crafting_shapeless",
+	"category" : "building",
+	"group" : "hay_block",
+
+	"ingredients" : [
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat"
+	],
+
+	"result" : {
+		"id" : "minecraft:hay_block",
+		"count" : 1
+	}
+}

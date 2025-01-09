@@ -1,6 +1,13 @@
 {
 	"model" : {
 		"type" : "minecraft:model",
-		"model" : "item-bundling:block/pallet_acacia_leaves"
+		"model" : "item-bundling:block/pallet_acacia_leaves",
+
+		"tints" : [
+			{
+				"type" : "minecraft:constant",
+				"value" : 4764952
+			}
+		]
 	}
 }

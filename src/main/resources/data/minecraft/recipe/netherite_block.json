@@ -1,0 +1,20 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "building",
+	"group" : "netherite_block",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:netherite_ingot"
+	},
+
+	"result" : {
+		"id" : "minecraft:netherite_block",
+		"count" : 1
+	}
+}

@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
 	"category" : "misc",
+	"group" : "pumpkin_seeds",
 
 	"ingredients" : [
 		"item-bundling:pouch_pumpkin_seeds"

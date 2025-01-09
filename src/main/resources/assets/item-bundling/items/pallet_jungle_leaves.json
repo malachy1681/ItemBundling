@@ -1,6 +1,13 @@
 {
 	"model" : {
 		"type" : "minecraft:model",
-		"model" : "item-bundling:block/pallet_jungle_leaves"
+		"model" : "item-bundling:block/pallet_jungle_leaves",
+
+		"tints" : [
+			{
+				"type" : "minecraft:constant",
+				"value" : 4764952
+			}
+		]
 	}
 }

@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "building",
+	"group" : "sandstone",
+
+	"pattern" : [
+		"XX",
+		"XX"
+	],
+
+	"key" : {
+		"X" : "minecraft:sand"
+	},
+
+	"result" : {
+		"id" : "minecraft:sandstone",
+		"count" : 1
+	}
+}

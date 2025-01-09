@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "building",
+	"group" : "white_wool",
 
 	"ingredients" : [
 		"item-bundling:pallet_white_wool"

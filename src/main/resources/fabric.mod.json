@@ -4,21 +4,35 @@
 	"version" : "${version}",
 	"name" : "Item Bundling",
 	"description" : "This mod allows for the bundling of various items and blocks to save storage space.",
+	"icon" : "assets/item-bundling/icon.png",
+	"license" : "GPL-3.0",
 
 	"authors" : [
 		"Malachy"
 	],
 
 	"contact" : {
-		"email" : "malachy@qmxtech.com",
+		"email" : "malachy1681@gmail.com",
 		"homepage" : "http://minecraft.qmxtech.com/itembundling/",
-		"issues" : "https://github.com/QMXTech/ItemBundling/issues",
-		"sources" : "https://github.com/QMXTech/ItemBundling"
+		"issues" : "https://github.com/ItemBundling/issues",
+		"sources" : "https://github.com/ItemBundling"
 	},
 
-	"license" : "CC0-1.0",
-	"icon" : "assets/item-bundling/icon.png",
 	"environment" : "*",
+
+	"depends" : {
+		"java" : ">=21",
+		"minecraft" : "~1.21.4",
+		"fabricloader" : ">=0.16.9",
+		"fabric-api" : "*"
+	},
+
+	"mixins" : [
+		{
+			"environment" : "client",
+			"config" : "item-bundling.client.mixins.json"
+		}
+	],
 
 	"entrypoints" : {
 		"main" : [
@@ -28,12 +42,5 @@
 		"client" : [
 			"com.qmxtech.itembundling.ItemBundlingClient"
 		]
-	},
-
-	"depends" : {
-		"java" : ">=21",
-		"minecraft" : "~1.21.4",
-		"fabricloader" : ">=0.16.9",
-		"fabric-api" : "*"
 	}
 }

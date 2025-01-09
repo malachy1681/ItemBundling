@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
 	"category" : "misc",
+	"group" : "melon_seeds",
 
 	"ingredients" : [
 		"item-bundling:pouch_melon_seeds"

@@ -1,6 +1,7 @@
 {
 	"type" : "minecraft:crafting_shapeless",
-	"category" : "misc",
+	"category" : "redstone",
+	"group" : "slime_block",
 
 	"ingredients" : [
 		"item-bundling:pallet_slime_blocks"

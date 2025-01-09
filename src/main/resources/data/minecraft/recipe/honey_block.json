@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "redstone",
+	"group" : "honey_block",
+
+	"pattern" : [
+		"XX",
+		"XX"
+	],
+
+	"key" : {
+		"X" : "minecraft:honey_bottle"
+	},
+
+	"result" : {
+		"id" : "minecraft:honey_block",
+		"count" : 1
+	}
+}

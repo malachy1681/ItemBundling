@@ -1,6 +1,13 @@
 {
 	"model" : {
 		"type" : "minecraft:model",
-		"model" : "item-bundling:block/pallet_mangrove_leaves"
+		"model" : "item-bundling:block/pallet_mangrove_leaves",
+
+		"tints" : [
+			{
+				"type" : "minecraft:constant",
+				"value" : 9619016
+			}
+		]
 	}
 }

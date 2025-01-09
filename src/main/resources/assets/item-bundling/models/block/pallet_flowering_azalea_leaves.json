@@ -1,10 +1,9 @@
 {
-	"parent" : "item-bundling:block/pallet",
+	"parent" : "item-bundling:block/pallet_leaves",
 
 	"textures" : {
 		"base" : "minecraft:block/oak_planks",
 		"strap" : "item-bundling:block/pallet_strap",
-		"block_side" : "minecraft:block/flowering_azalea_leaves",
-		"block_top" : "minecraft:block/flowering_azalea_leaves"
+		"block" : "minecraft:block/flowering_azalea_leaves"
 	}
 }

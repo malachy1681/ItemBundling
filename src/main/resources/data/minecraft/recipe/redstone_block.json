@@ -1,0 +1,20 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "redstone",
+	"group" : "redstone_block",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:redstone"
+	},
+
+	"result" : {
+		"id" : "minecraft:redstone_block",
+		"count" : 1
+	}
+}

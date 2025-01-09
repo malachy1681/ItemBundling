@@ -1,0 +1,20 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "building",
+	"group" : "emerald_block",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:emerald"
+	},
+
+	"result" : {
+		"id" : "minecraft:emerald_block",
+		"count" : 1
+	}
+}

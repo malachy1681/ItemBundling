@@ -1,0 +1,20 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+	"group" : "melon",
+
+	"pattern" : [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+
+	"key" : {
+		"X" : "minecraft:melon_slice"
+	},
+
+	"result" : {
+		"id" : "minecraft:melon",
+		"count" : 1
+	}
+}
