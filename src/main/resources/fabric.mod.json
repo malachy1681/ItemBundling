@@ -13,9 +13,9 @@
 
 	"contact" : {
 		"email" : "malachy1681@gmail.com",
-		"homepage" : "http://minecraft.qmxtech.com/itembundling/",
-		"issues" : "https://github.com/ItemBundling/issues",
-		"sources" : "https://github.com/ItemBundling"
+		"homepage" : "https://modrinth.com/project/item-bundling",
+		"issues" : "https://github.com/malachy1681/ItemBundling/issues",
+		"sources" : "https://github.com/malachy1681/ItemBundling"
 	},
 
 	"environment" : "*",
