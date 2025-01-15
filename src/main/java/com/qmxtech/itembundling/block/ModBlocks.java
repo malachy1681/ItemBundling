@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////${cursor}
 // ModItems.java
-// Robert M. Baker | Created : 03JAN25 | Last Modified : 09JAN25 by Robert M. Baker
-// Version : 1.0.0
+// Robert M. Baker | Created : 03JAN25 | Last Modified : 15JAN25 by Robert M. Baker
+// Version : 1.1.0
 // This is a source file for 'Item Bundling'; it defines the mod items registration class.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -140,6 +140,7 @@ public class ModBlocks
 			register( "pallet_granite", PalletBlock::new, SETTINGS_STANDARD ),
 			register( "pallet_dripstone_blocks", PalletBlock::new, SETTINGS_STANDARD ),
 			register( "pallet_cobbled_deepslate", PalletBlock::new, SETTINGS_STANDARD ),
+			register( "pallet_tuff", PalletBlock::new, SETTINGS_STANDARD ),
 			register( "pallet_calcite", PalletBlock::new, SETTINGS_STANDARD ),
 			register( "pallet_obsidian", PalletBlock::new, SETTINGS_STANDARD ),
 			register( "pallet_crying_obsidian", PalletBlock::new, SETTINGS_STANDARD ),
